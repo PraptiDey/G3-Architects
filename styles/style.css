@@ -95,9 +95,12 @@ button{
     width: 100%;
 }
 .container-img>img{
-    /* width: 700px; */
-    height: 900px;
+    width: 490px;
+    height: 800px;
     
+}
+.container-img{
+    width: 40%;
 }
 .gray-color{
     color: #727272;
@@ -123,16 +126,22 @@ button{
     padding-bottom: 20px;
     color: #727272;  
 }
+
 .Features{
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
     
 }
+.container{
+    width: 40%;
+}
+
 .con-head{
     border-left: 5px solid #FF900E;
     font-weight: 700;
@@ -166,49 +175,17 @@ button{
     box-shadow: #727272;
     margin-bottom: 10px;
     margin-top: 10px; 
-    padding-right: 20%;
+    padding-right: 35%;
     padding-left: 5%;
     padding-top: 10px;
     justify-content: space-around;
-}
-.box-two{
-    border: #f6f2f2 ;
-    background-color: #f6f2f2;
-    border-radius: 5px;
-    box-shadow: #727272;
-    margin-bottom: 10px;
-    margin-top: 10px; 
-    padding-right: 20%;
-    padding-left: 5%;
-    padding-top: 10px;
-}
-.box-three{
-    border: #f6f2f2 ;
-    background-color: #f6f2f2;
-    border-radius: 5px;
-    box-shadow: #727272;
-    margin-bottom: 10px;
-    margin-top: 10px; 
-    padding-right: 20%;
-    padding-left: 5%;
-    padding-top: 10px;
-}
-.box-four{
-    border: #f6f2f2 ;
-    background-color: #f6f2f2;
-    border-radius: 5px;
-    box-shadow: #727272;
-    margin-bottom: 10px;
-    margin-top: 10px; 
-    padding-right: 20%;
-    padding-left: 5%;
-    padding-top: 10px;
 }
 .btn{
     /* padding: 20px; */
     border-radius: 5px;
     border-style: none;
     background-color: #FF900E;
+    margin-top: -40px;
 }
 .bt-n{
     color: #f6f2f2;
