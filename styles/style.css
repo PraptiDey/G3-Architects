@@ -62,12 +62,12 @@ button{
     background: #FF900E;
 }
 .img-tag{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 40px;
+  padding-left: 15%;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+.img-tag img{
+    width: 80%;
 }
 
 /* Header-section-end */
@@ -139,7 +139,7 @@ button{
     
 }
 .container{
-    width: 40%;
+    width: 52%;
 }
 
 .con-head{
@@ -169,10 +169,9 @@ button{
     padding-bottom: 20px;
 }
 .box-one{
-    border: #f6f2f2 ;
-    background-color: #f6f2f2;
+    background-color: white;
     border-radius: 5px;
-    box-shadow: #727272;
+    box-shadow: 2px 2px 2px #ddd;
     margin-bottom: 10px;
     margin-top: 10px; 
     padding-right: 35%;
